@@ -7,21 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE9835EE209FDEC300A704BF /* ProperiesFlatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9835ED209FDEC300A704BF /* ProperiesFlatCell.swift */; };
+		CE9835F6209FE0B500A704BF /* flat-201.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE9835F0209FE0B500A704BF /* flat-201.jpg */; };
+		CE9835F7209FE0B500A704BF /* flat-202.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE9835F1209FE0B500A704BF /* flat-202.jpg */; };
+		CE9835F8209FE0B500A704BF /* flat-203.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE9835F2209FE0B500A704BF /* flat-203.jpg */; };
+		CE9835F9209FE0B500A704BF /* flat-204.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE9835F3209FE0B500A704BF /* flat-204.jpg */; };
+		CE9835FA209FE0B500A704BF /* flat-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE9835F4209FE0B500A704BF /* flat-205.jpg */; };
+		CE9835FB209FE0B500A704BF /* flat-206.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE9835F5209FE0B500A704BF /* flat-206.jpg */; };
+		CE9835FD209FE0EC00A704BF /* PropertiesFlatDescModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9835FC209FE0EC00A704BF /* PropertiesFlatDescModel.swift */; };
 		CEC434E3209F1D45005EF49E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC434E2209F1D45005EF49E /* AppDelegate.swift */; };
-		CEC434E5209F1D45005EF49E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC434E4209F1D45005EF49E /* ViewController.swift */; };
+		CEC434E5209F1D45005EF49E /* SignUpInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC434E4209F1D45005EF49E /* SignUpInVC.swift */; };
 		CEC434E8209F1D46005EF49E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC434E6209F1D46005EF49E /* Main.storyboard */; };
 		CEC434EA209F1D46005EF49E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC434E9209F1D46005EF49E /* Assets.xcassets */; };
 		CEC434ED209F1D46005EF49E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC434EB209F1D46005EF49E /* LaunchScreen.storyboard */; };
+		CEC434F9209F2B0D005EF49E /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC434F8209F2B0D005EF49E /* FancyBtn.swift */; };
+		CEC434FD209F5103005EF49E /* PropertiesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC434FC209F5103005EF49E /* PropertiesListVC.swift */; };
+		CEC434FF209F549F005EF49E /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC434FE209F549F005EF49E /* FancyView.swift */; };
+		CEC43501209F5D3E005EF49E /* PropertiesLiseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC43500209F5D3E005EF49E /* PropertiesLiseCell.swift */; };
+		CEC43503209F5DCF005EF49E /* PropertiesListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC43502209F5DCF005EF49E /* PropertiesListModel.swift */; };
+		CEC43505209F64D4005EF49E /* PropertiesDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC43504209F64D4005EF49E /* PropertiesDetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE9835ED209FDEC300A704BF /* ProperiesFlatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProperiesFlatCell.swift; sourceTree = "<group>"; };
+		CE9835F0209FE0B500A704BF /* flat-201.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "flat-201.jpg"; sourceTree = "<group>"; };
+		CE9835F1209FE0B500A704BF /* flat-202.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "flat-202.jpg"; sourceTree = "<group>"; };
+		CE9835F2209FE0B500A704BF /* flat-203.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "flat-203.jpg"; sourceTree = "<group>"; };
+		CE9835F3209FE0B500A704BF /* flat-204.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "flat-204.jpg"; sourceTree = "<group>"; };
+		CE9835F4209FE0B500A704BF /* flat-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "flat-205.jpg"; sourceTree = "<group>"; };
+		CE9835F5209FE0B500A704BF /* flat-206.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "flat-206.jpg"; sourceTree = "<group>"; };
+		CE9835FC209FE0EC00A704BF /* PropertiesFlatDescModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertiesFlatDescModel.swift; sourceTree = "<group>"; };
 		CEC434DF209F1D45005EF49E /* PhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC434E2209F1D45005EF49E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEC434E4209F1D45005EF49E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEC434E4209F1D45005EF49E /* SignUpInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpInVC.swift; sourceTree = "<group>"; };
 		CEC434E7209F1D46005EF49E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEC434E9209F1D46005EF49E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEC434EC209F1D46005EF49E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEC434EE209F1D46005EF49E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC434F8209F2B0D005EF49E /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
+		CEC434FC209F5103005EF49E /* PropertiesListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertiesListVC.swift; sourceTree = "<group>"; };
+		CEC434FE209F549F005EF49E /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		CEC43500209F5D3E005EF49E /* PropertiesLiseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertiesLiseCell.swift; sourceTree = "<group>"; };
+		CEC43502209F5DCF005EF49E /* PropertiesListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertiesListModel.swift; sourceTree = "<group>"; };
+		CEC43504209F64D4005EF49E /* PropertiesDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertiesDetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +63,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE9835EF209FE0A400A704BF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE9835F0209FE0B500A704BF /* flat-201.jpg */,
+				CE9835F1209FE0B500A704BF /* flat-202.jpg */,
+				CE9835F2209FE0B500A704BF /* flat-203.jpg */,
+				CE9835F3209FE0B500A704BF /* flat-204.jpg */,
+				CE9835F4209FE0B500A704BF /* flat-205.jpg */,
+				CE9835F5209FE0B500A704BF /* flat-206.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		CEC434D6209F1D45005EF49E = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +95,55 @@
 		CEC434E1209F1D45005EF49E /* PhotoApp */ = {
 			isa = PBXGroup;
 			children = (
-				CEC434E2209F1D45005EF49E /* AppDelegate.swift */,
-				CEC434E4209F1D45005EF49E /* ViewController.swift */,
-				CEC434E6209F1D46005EF49E /* Main.storyboard */,
+				CE9835EF209FE0A400A704BF /* Images */,
+				CEC434F7209F1D8F005EF49E /* Controlers */,
+				CEC434F6209F1D6B005EF49E /* Views */,
+				CEC434F5209F1D62005EF49E /* Models */,
+				CEC434F4209F1D51005EF49E /* SupportingFiels */,
 				CEC434E9209F1D46005EF49E /* Assets.xcassets */,
+			);
+			path = PhotoApp;
+			sourceTree = "<group>";
+		};
+		CEC434F4209F1D51005EF49E /* SupportingFiels */ = {
+			isa = PBXGroup;
+			children = (
+				CEC434E2209F1D45005EF49E /* AppDelegate.swift */,
 				CEC434EB209F1D46005EF49E /* LaunchScreen.storyboard */,
 				CEC434EE209F1D46005EF49E /* Info.plist */,
 			);
-			path = PhotoApp;
+			name = SupportingFiels;
+			sourceTree = "<group>";
+		};
+		CEC434F5209F1D62005EF49E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEC43502209F5DCF005EF49E /* PropertiesListModel.swift */,
+				CE9835FC209FE0EC00A704BF /* PropertiesFlatDescModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CEC434F6209F1D6B005EF49E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEC434E6209F1D46005EF49E /* Main.storyboard */,
+				CEC434F8209F2B0D005EF49E /* FancyBtn.swift */,
+				CEC434FE209F549F005EF49E /* FancyView.swift */,
+				CEC43500209F5D3E005EF49E /* PropertiesLiseCell.swift */,
+				CE9835ED209FDEC300A704BF /* ProperiesFlatCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CEC434F7209F1D8F005EF49E /* Controlers */ = {
+			isa = PBXGroup;
+			children = (
+				CEC434E4209F1D45005EF49E /* SignUpInVC.swift */,
+				CEC434FC209F5103005EF49E /* PropertiesListVC.swift */,
+				CEC43504209F64D4005EF49E /* PropertiesDetailsVC.swift */,
+			);
+			name = Controlers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +178,7 @@
 				TargetAttributes = {
 					CEC434DE209F1D45005EF49E = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 8MBSDR4W6C;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,7 +207,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEC434ED209F1D46005EF49E /* LaunchScreen.storyboard in Resources */,
+				CE9835F7209FE0B500A704BF /* flat-202.jpg in Resources */,
+				CE9835F9209FE0B500A704BF /* flat-204.jpg in Resources */,
+				CE9835F8209FE0B500A704BF /* flat-203.jpg in Resources */,
 				CEC434EA209F1D46005EF49E /* Assets.xcassets in Resources */,
+				CE9835FB209FE0B500A704BF /* flat-206.jpg in Resources */,
+				CE9835F6209FE0B500A704BF /* flat-201.jpg in Resources */,
+				CE9835FA209FE0B500A704BF /* flat-205.jpg in Resources */,
 				CEC434E8209F1D46005EF49E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +225,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEC434E5209F1D45005EF49E /* ViewController.swift in Sources */,
+				CEC43505209F64D4005EF49E /* PropertiesDetailsVC.swift in Sources */,
+				CEC434F9209F2B0D005EF49E /* FancyBtn.swift in Sources */,
+				CE9835FD209FE0EC00A704BF /* PropertiesFlatDescModel.swift in Sources */,
+				CEC434FF209F549F005EF49E /* FancyView.swift in Sources */,
+				CEC434E5209F1D45005EF49E /* SignUpInVC.swift in Sources */,
+				CEC43503209F5DCF005EF49E /* PropertiesListModel.swift in Sources */,
+				CEC43501209F5D3E005EF49E /* PropertiesLiseCell.swift in Sources */,
+				CE9835EE209FDEC300A704BF /* ProperiesFlatCell.swift in Sources */,
 				CEC434E3209F1D45005EF49E /* AppDelegate.swift in Sources */,
+				CEC434FD209F5103005EF49E /* PropertiesListVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +359,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8MBSDR4W6C;
 				INFOPLIST_FILE = PhotoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = universal.PhotoApp;
@@ -274,6 +372,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8MBSDR4W6C;
 				INFOPLIST_FILE = PhotoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = universal.PhotoApp;
@@ -301,6 +400,7 @@
 				CEC434F3209F1D46005EF49E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

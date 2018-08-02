@@ -13,7 +13,7 @@ class FancyView: UIView {
     
     override func awakeFromNib() {
         
-        layer.cornerRadius = 4.0
+        layer.cornerRadius = 5.0
     }
 }
 

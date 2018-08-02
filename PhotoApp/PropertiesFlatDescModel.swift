@@ -28,11 +28,11 @@ class PropertiesFlatDescriptionModel {
     static func createCategory()->[PropertiesFlatDescriptionModel] {
         
         return [PropertiesFlatDescriptionModel(name:"201", image: UIImage(named: "flat-201.jpg")!,description:"Front View"),
-                PropertiesFlatDescriptionModel(name:"202", image: UIImage(named: "flat-202.jpg")!,description:"Drawing View"),
-                PropertiesFlatDescriptionModel(name:"203", image: UIImage(named: "flat-203.jpg")!,description:"Balcony View"),
-                PropertiesFlatDescriptionModel(name:"204", image: UIImage(named: "flat-204.jpg")!,description:"Front View"),
-                PropertiesFlatDescriptionModel(name:"205", image: UIImage(named: "flat-205.jpg")!,description:"Rare View"),
-                PropertiesFlatDescriptionModel(name:"206", image: UIImage(named: "flat-206.jpg")!,description:"Bed Room View"),
+                PropertiesFlatDescriptionModel(name:"301", image: UIImage(named: "flat-202.jpg")!,description:"Drawing View"),
+                PropertiesFlatDescriptionModel(name:"401", image: UIImage(named: "flat-203.jpg")!,description:"Balcony View"),
+                PropertiesFlatDescriptionModel(name:"501", image: UIImage(named: "flat-204.jpg")!,description:"Front View"),
+                PropertiesFlatDescriptionModel(name:"601", image: UIImage(named: "flat-205.jpg")!,description:"Rare View"),
+                PropertiesFlatDescriptionModel(name:"701", image: UIImage(named: "flat-206.jpg")!,description:"Bed Room View"),
                 
         ]
         
